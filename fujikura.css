@@ -1,0 +1,90 @@
+body {
+     background-color:white;	
+}
+
+.paperohukidasi{
+	background-color:#ffbb33;
+	border-radius:5px;
+	position:relative;
+	height: 30%;
+        width: 45%;
+	float: right;
+        font-size:1.3em;
+        font-family:Arial, sans-serif;
+        text-align :center;
+        display: table-cell;
+        vertical-align: middle;
+	margin-right: 8%;
+	margin-bottom: 5%; 
+}
+ 
+.paperohukidasi:after {
+		      border:10px solid transparent;
+		      border-left-color:#ffbb33;
+		      border-right-width:0;
+		      right:-10px;
+		      content:"";
+		      display:block;
+		      top:30px;	      
+		      position:absolute;
+		      width:0;
+}
+
+
+.userhukidasi{
+	background-color:#6699ff;
+	border-radius:5px;
+	position:relative;
+	height: 30%;
+        width: 45%;
+        float: left;
+        font-size:1.3em;
+        font-family:Arial, sans-serif;
+        text-align :center;
+        display: table-cell;
+        vertical-align: middle;
+        margin-left: 8%;
+}
+ 
+.userhukidasi:after {
+	border:10px solid transparent;
+	border-right-color:#6699ff;
+	border-left-width:0;
+	left:-10px;
+	content:"";
+	display:block;
+	top:30px;
+	position:absolute;
+	width:0;
+}
+
+
+#chatlog{
+	//display: table-cell;
+	//vertical-align: middle;
+	border:0;
+        padding:10px;
+        font-size:1.3em;
+        font-family:Arial, sans-serif;
+	//color:#aaa;
+        //background-color:white;
+        //border:solid 1px #ccc;
+        margin: 5%;
+        height: 35%;
+        width: 80%;
+        text-align :center;
+}
+
+#ohanasipapero{
+	border:0;
+	padding:10px;
+	font-size:1.3em;
+	font-family:Arial, sans-serif;
+	color:#aaa;
+	border:solid 1px #ccc;
+	margin: 5%;
+	height: 35%;
+	width: 80%;
+	text-align :center;
+}
+
