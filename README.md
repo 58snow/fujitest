@@ -1,0 +1,1 @@
+work as an assistant to fujikura.
