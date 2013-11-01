@@ -1,0 +1,19 @@
+.userlog{
+    border:solid 4px red;
+}
+.systemlog{
+    border:solid 4px green;
+}
+
+.userlog{
+    color:gray;
+    margin:0px;
+    padding:0px;
+    text-align:right;
+}
+.systemlog{
+    
+}
+#rating{
+    margin:0px auto;
+}
